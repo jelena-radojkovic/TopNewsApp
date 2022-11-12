@@ -46,9 +46,7 @@ extension MainNewsTableViewCell {
         contentView.addSubview(descriptionLabel)
         
         newsImage = UIImageView(frame: CGRect(x: screenWidth/2 - 60, y: 190, width: 120, height: 100))
-        contentView.addSubview(newsImage)
-//        newsImage.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
-        
+        contentView.addSubview(newsImage)  
     }
     
     private func customizeUI() {
