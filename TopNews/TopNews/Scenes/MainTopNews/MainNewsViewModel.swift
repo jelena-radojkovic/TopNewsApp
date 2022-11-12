@@ -13,7 +13,6 @@ class MainNewsViewModel {
     var headlines: [String] {
         Array(dataSource.keys).sorted { $0.lowercased() < $1.lowercased() }
     }
-    //movieArr.sorted { $0.name.lowercased() < $1.name.lowercased() }
     var onFetchedData: (() -> Void)?
     
     enum Constants {
